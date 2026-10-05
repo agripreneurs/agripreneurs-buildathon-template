@@ -1,206 +1,164 @@
-# 🌾 Agripreneurs Buildathon 01 — Project Template
+# 🌾 Agripreneurs Buildathon 01 — Solution Template
 
-> **Official Solution Repository & Documentation**  
-> **Deadline:** 15 October 2026, 11:59 PM IST | **Team Size:** 2–5 Members (Max 3 Speakers in Live Q&A)  
+> **Theme:** *Build for the Farmer. Start in the field, not on the whiteboard.*  
+> **Key Deadlines:** Code Freeze: **15 Oct 2026, 11:59 PM IST** | Commit to 5 Farmers: **16 Oct 2026** | Showcase Meet: **17 Oct 2026**  
+> **Tribe Size:** 2–5 Members (Max 3 Speakers in Live Q&A)  
 > **Judges / Collaborators (if private):** [`@agripreneurs`](https://github.com/agripreneurs) & [`@kumarraja`](https://github.com/kumarraja)
 
 ---
 
-## 📌 Project Quick Links & Submission Summary
+## 📌 Deliverable Quick Links & Submission Summary
 
 | Deliverable | Location / URL | Status |
 |-------------|----------------|--------|
-| **Team Name** | `[Your Team Name Here]` | Required |
+| **Team / Tribe Name** | `[Your Tribe Name Here]` | Required |
 | **Selected Track** | `[PS1-PS6 or Open Innovation]` | Required |
-| **Pitch Deck (Slides)** | [`/docs/presentation.pdf`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/presentation.pdf) or `[Google Slides / Canva URL]` | Required |
-| **Video Demo (2-3 min)** | `[YouTube Unlisted / Loom Link]` | Required |
-| **Live Deployed Prototype** | `[Web / Streamlit / API URL or N/A]` | Optional |
-| **Executive Summary (1-Page)**| [`/docs/executive-summary-template.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/executive-summary-template.md) or [`/docs/project-report.pdf`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/project-report.pdf) | Required |
+| **Working Video Demo (2-3 min)** | `[YouTube Unlisted / Loom Link]` | Required |
+| **Pitch Deck (8-10 Slides)** | [`/docs/presentation.pdf`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/presentation.pdf) or `[Google Slides / Canva URL]` | Required |
+| **1-Page Executive Summary** | [`/docs/executive-summary-template.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/executive-summary-template.md) or [`/docs/project-report.pdf`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/project-report.pdf) | Required |
+| **Module / API Contract** | [`/spec/contract.json`](file:///Users/laku/projects/agripreneurs-buildathon-template/spec/contract.json) | Required |
+| **Field Validation ("One Honest Number")** | Documented in Section 8 below | Required |
+| **Live Deployed Prototype (Web/App)** | `[Web / Streamlit / API / APK URL or N/A]` | Optional |
 | **Optional Deep Dive Report** | [`/docs/final-report-template.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/final-report-template.md) | *Optional* |
 
 ---
 
-## 👥 Team Information
+## 👥 Tribe Information
 
-- **Team Name:** `[Team Name]`
-- **College / Institution:** `[College / University / Organization]`
-- **Primary Contact Email:** `[team_lead@example.com]`
-- **Primary Contact Phone / WhatsApp:** `[+91-XXXXXXXXXX]`
+- **Tribe Name:** `[Tribe Name]`
+- **College / Organization:** `[Institution Name]`
+- **Primary Contact Email:** `[lead@example.com]`
+- **Primary Contact WhatsApp:** `[+91-XXXXXXXXXX]`
 
-### Team Members & Live Q&A Speakers
-*Note: Recommended team size is 2–5 members. A maximum of 3 speakers are permitted during the live Q&A session.*
+### Team Members & Live Q&A Speakers (Max 3 Speakers)
 
-| Member Name | Role / Specialty | GitHub Handle | Live Q&A Speaker? (Max 3) |
-|-------------|------------------|---------------|---------------------------|
-| `Member 1 (Lead)` | Software / Backend | `@username1` | **Yes (Speaker 1)** |
-| `Member 2` | Hardware / IoT / Embedded | `@username2` | **Yes (Speaker 2)** |
-| `Member 3` | AI / ML / Computer Vision | `@username3` | **Yes (Speaker 3)** |
-| `Member 4` | UI/UX / Mobile App | `@username4` | No |
-| `Member 5` | Agri Domain & Field Research | `@username5` | No |
+| Member Name | Role / Tribe Specialty | GitHub Handle | Live Q&A Speaker? (Max 3) |
+|-------------|------------------------|---------------|---------------------------|
+| `Member 1 (Lead)` | Developer (Python / Backend) | `@github1` | **Yes (Speaker 1)** |
+| `Member 2` | Hardware / IoT / Robotics | `@github2` | **Yes (Speaker 2)** |
+| `Member 3` | Designer (Telugu UX Flows) | `@github3` | **Yes (Speaker 3)** |
+| `Member 4` | Product / Business Analyst | `@github4` | No |
+| `Member 5` | Agri Domain / Farmer Mentor | `@github5` | No |
 
 ---
 
 ## 🎯 Selected Problem Statement
 
-- **Track Selected:** `[PS1 | PS2 | PS3 | PS4 | PS5 | PS6 | Open Innovation]`
-- **Official Problem Title:** `[Problem Title or Custom Title]`
-- **Agricultural Problem Summary:**
-  *(Describe the real-world agricultural challenge in 2–3 sentences: What are farmers suffering from, why does it happen, and what is the economic or environmental loss?)*
-- **Target Beneficiaries:** *(e.g. Smallholder paddy farmers with <2 hectares in semi-arid zones)*
-- *For a deeper breakdown, see [`docs/problem-statement.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/problem-statement.md).*
+- **Selected Track:** `[PS1: Daily Price Signal | PS2: Storage Booking | PS3: Grade-Assist | PS4: Crop-Photo Check | PS5: Organic Marketplace | PS6: Robotic Farming Stack | Open Innovation]`
+- **Problem Statement Title:** `[Problem Title]`
+- **Problem Summary (Ground Reality):**
+  *(What is the real-world value leak or friction? Why does current advice or manual practice fail?)*
+- **Target Beneficiaries:** *(e.g. Smallholder dry chilli farmers in Gurazala, Tomato growers in Vizag belt, FPOs)*
+- *Detailed analysis available in [`docs/problem-statement.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/problem-statement.md).*
 
 ---
 
-## 💡 Proposed Solution & Innovation
+## 💡 Solution & Thin-Layer Architecture
 
-- **Solution Headline:** *(A single compelling sentence explaining what your product does)*
-- **Core Value Proposition:**
-  *(How does your solution resolve the bottleneck? What makes it better, faster, or significantly cheaper than existing market solutions?)*
-- **Key Features:**
-  - 🌟 **Feature 1:** `[Description]`
-  - 🌟 **Feature 2:** `[Description]`
-  - 🌟 **Feature 3:** `[Description]`
-  - 🌟 **Feature 4:** `[Description]`
-- *For full workflow, see [`docs/solution-overview.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/solution-overview.md).*
+> **The AgriPreneurs Rule:** Build the thin layer, not the whole stack. Stand on rails that already exist. Connect modules via contracts and events only.
 
----
-
-## 🏗️ System Architecture & Data Flow
+- **Existing Rails Leveraged:** `[Agmarknet (data.gov.in) | ONDC | Digi Rythu Bazaar | WhatsApp Business | e-NAM / WDRA]`
+- **AgriPreneurs Shared Modules Consumed:** `[M1 Registry | M2 Messaging | M3 Image & Inference | M4 Price Feed | M5 Advisory | M6 Listing | M8 Receipt & Ledger | M9 Traceability]`
+- **Core Value Proposition:** *(What does your product do, for whom, and what is its unique advantage?)*
 
 ```mermaid
 flowchart LR
-    A["🌾 Field Sensors / IoT<br>(Soil Probe, Temp, DHT22)"] --> B["⚡ Edge Controller<br>(ESP32 / MicroPython)"]
-    B -->|WiFi / GSM MQTT| C["☁️ Backend Server<br>(FastAPI / Node.js)"]
-    C --> D[("📊 Database<br>PostgreSQL / Firebase")]
-    C --> E["🧠 AI / ML Pipeline<br>(Disease CV / Irrigation Advisory)"]
-    E --> C
-    C --> F["📱 Farmer App / Web<br>(Flutter / React / WhatsApp Bot)"]
-    B -.->|Relay Signal| G["🚰 Irrigation Actuator<br>(Solenoid Valve)"]
+    A["🌾 Real Farmer<br>(Phone in Village / WhatsApp in Telugu)"] --> B["🔌 Existing Rail<br>(Agmarknet / ONDC / Rythu Bazaar)"]
+    B --> C["⚡ Thin Layer Built by Tribe<br>(Our Solution API / Bot)"]
+    C --> D["📦 Shared Modules<br>(M1 Registry, M4 Price, M8 Receipt)"]
+    C --> E["📱 Farmer Outcome<br>(Clear Price, Grade Card, Fair Sale)"]
 ```
 
-*See [`docs/system-architecture.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/system-architecture.md) for detailed component tables, security models, and design trade-offs.*
+*See [`docs/system-architecture.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/system-architecture.md) for detailed architecture, and [`docs/code-and-maintenance-guide.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/code-and-maintenance-guide.md) for community maintenance rules.*
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Hardware & IoT:** ESP32 DevKit, Capacitive Soil Moisture Sensor v1.2, DS18B20 Temp Probe, 12V Solenoid Valve, 5V Relay Module.
-- **Embedded Firmware:** C++ (Arduino IDE / PlatformIO) or MicroPython.
-- **Backend / APIs:** Python 3.11, FastAPI / Flask, MQTT Broker (HiveMQ / Mosquitto).
-- **Machine Learning / Analytics:** PyTorch / TensorFlow Lite / Scikit-learn / OpenCV.
-- **Frontend / Client:** Streamlit / Flutter / React / Tailwind CSS.
-- **Cloud & DevOps:** GitHub Actions, Docker, Render / Railway / Vercel.
+- **Frontend / Farmer Interface:** Vernacular Telugu flows on WhatsApp (Twilio/Meta API) / Flutter / React / Streamlit.
+- **Backend & APIs:** Python 3.10+, FastAPI / Flask / Node.js.
+- **Data & Feeds:** Agmarknet daily price scraper via `data.gov.in`, OpenWeather API.
+- **Hardware / IoT (if applicable):** ESP32, Capacitive Soil Sensors, Relays, Solenoid valves, CNC Cartesian frame (KisaanBot), ArUco markers, YOLO vision.
+- **Database & State:** SQLite (zero-setup default) / PostgreSQL / Redis.
+- **Testing & Specification:** Python `unittest`, JSON Schema / OpenAPI in `/spec`.
 
 ---
 
-## ⚡ Hardware & Field Implementation (If Applicable)
+## 🚀 Quickstart & Zero-Setup Run
 
-- **Hardware Specs & Wiring:** See [`hardware/README.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/hardware/README.md).
-- **Bill of Materials (BOM):** See [`hardware/bom.csv`](file:///Users/laku/projects/agripreneurs-buildathon-template/hardware/bom.csv) (Total prototype cost: ~₹1,500).
-- **Firmware Code:** Located in [`hardware/firmware/main.ino`](file:///Users/laku/projects/agripreneurs-buildathon-template/hardware/firmware/main.ino).
-- **Circuit Schematics & Photos:** Located in [`hardware/schematics/`](file:///Users/laku/projects/agripreneurs-buildathon-template/hardware/schematics/).
+As required by the AgriPreneurs module contract, this repository runs with **zero-setup** using local sample data:
 
-*(If your project is software-only, write "Software-Only Solution" here).*
-
----
-
-## 🚀 Setup & Installation Guide
-
-Follow these steps to run the software prototype locally:
-
-### 1. Prerequisites
-- Python 3.10+ (or Node.js 18+ if applicable)
-- Git installed
-- (Optional) Arduino IDE or VS Code PlatformIO if flashing hardware
-
-### 2. Clone the Repository
 ```bash
-git clone https://github.com/[your-team]/[your-repo].git
+# 1. Clone repository
+git clone https://github.com/[your-tribe]/[your-repo].git
 cd [your-repo]
-```
 
-### 3. Set Up Virtual Environment & Dependencies
-```bash
-# Create and activate virtual environment
+# 2. Set up virtual environment
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
-# Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
-```
 
-### 4. Configure Environment Variables
-```bash
-# Copy example configuration (DO NOT commit real keys!)
+# 4. Copy environment template
 cp .env.example .env
 
-# Edit .env with your local settings/API keys if needed
-```
-
-### 5. Run the Prototype
-```bash
-# Run the starter solution script
-python src/main.py
+# 5. Run the prototype
+python3 src/main.py
 ```
 
 ---
 
 ## 🧪 Testing & Validation
 
-Judges look for automated tests and validation proof. Run our built-in test suite:
-
 ```bash
-# Run standard unittests
+# Run automated test suite
 python3 -m unittest discover tests
-
-# Or run with pytest (if installed)
-pytest tests/ -v
 ```
 
-Validation highlights:
-- `test_project_root_exists`: Confirms repo sanity.
-- `test_load_sample_sensor_data`: Verifies field telemetry schema.
-- `test_irrigation_evaluation_*`: Tests threshold boundary conditions and decision safety.
-
-*See [`tests/README.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/tests/README.md) for instructions on adding tests.*
+*See [`tests/README.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/tests/README.md) for details.*
 
 ---
 
-## 💰 Unit Economics & Farmer Viability
+## 🌾 Field Validation: "One Honest Number"
 
-- **Prototype Unit Cost:** ~₹1,500 ($18 USD)
-- **Estimated Mass Production Cost (1,000 units):** ~₹850 ($10 USD)
-- **Expected Farmer Benefits:**
-  - Water savings: 25–35% reduction in groundwater extraction.
-  - Energy savings: ~15% reduction in electricity/diesel pump operating hours.
-  - Payback period: ~4–6 months on a 2-acre plot.
+*Judges evaluate prototypes by what happened in the field with real farmers.*
 
----
-
-## 🗺️ Roadmap & Next Steps
-
-- [ ] **Phase 1 (Buildathon):** Functional edge prototype, sensor calibration, local rule engine, and cloud API.
-- [ ] **Phase 2 (Field Pilot - 30 Days):** Deploy 5 pilot units across local partner farms; validate sensor drift in monsoon soil.
-- [ ] **Phase 3 (Productization - 90 Days):** Custom PCB design to cut costs by 40%, IP67 waterproof enclosure, and vernacular voicebot (Hindi/Tamil/Telugu).
+- **Farmers Onboarded / Tested:** `[e.g. 5 tomato farmers in Anandapuram]`
+- **The One Honest Metric:** `[e.g. Grade A card fetched ₹6/kg premium over ungraded lot, or 100% agreement on top-3 pest causes]`
+- **What the Farmer Said:** `"[Direct quote from farmer who held the prototype]"`
+- **What Is NOT Built Yet:** `[Honest assessment of current gaps and technical roadmap]`
 
 ---
 
-## 📄 Submission Verification Checklist
+## ⚡ Hardware & Embedded (If Applicable)
 
-Before submitting on **15 October 2026, 11:59 PM IST**:
+- **Bill of Materials:** Located in [`hardware/bom.csv`](file:///Users/laku/projects/agripreneurs-buildathon-template/hardware/bom.csv) (Estimated cost: ~₹1,500).
+- **Firmware:** Located in [`hardware/firmware/main.ino`](file:///Users/laku/projects/agripreneurs-buildathon-template/hardware/firmware/main.ino).
+- **Schematics:** Located in [`hardware/schematics/`](file:///Users/laku/projects/agripreneurs-buildathon-template/hardware/schematics/).
 
-- [ ] Repository has no hardcoded credentials or API keys (`.env` is in `.gitignore`).
-- [ ] Large ML models and raw data archives are not committed (links provided if needed).
-- [ ] Working prototype can be executed via instructions in this README.
-- [ ] Unit tests pass cleanly (`python3 -m unittest discover tests`).
-- [ ] Presentation slides hosted in [`docs/presentation.pdf`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/presentation.pdf) or cloud URL verified.
-- [ ] 2–3 minute video demo recorded and link added above.
-- [ ] 1-page executive summary completed in [`docs/executive-summary-template.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/executive-summary-template.md) or [`docs/project-report.pdf`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/project-report.pdf).
-- [ ] If repository is private, collaborators [`@agripreneurs`](https://github.com/agripreneurs) and [`@kumarraja`](https://github.com/kumarraja) are invited.
-- [ ] Purely text/URL-based submission form submitted on time.
+*(If building a software-only tool or WhatsApp bot, state "Software-Only Solution" here).*
+
+---
+
+## 📄 Pre-Submission Checklist
+
+Before **15 October 2026, 11:59 PM IST**:
+
+- [ ] Zero API keys or credentials committed (`.env.example` used).
+- [ ] No large ML checkpoints or massive datasets committed.
+- [ ] Working prototype executes out of the box (`python3 src/main.py`).
+- [ ] Unit tests pass (`python3 -m unittest discover tests`).
+- [ ] Published contract in [`/spec`](file:///Users/laku/projects/agripreneurs-buildathon-template/spec/README.md).
+- [ ] 2–3 minute video demo recorded (YouTube unlisted / Loom).
+- [ ] Pitch deck saved as [`docs/presentation.pdf`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/presentation.pdf) or accessible cloud URL.
+- [ ] 1-page executive summary completed in [`docs/executive-summary-template.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/executive-summary-template.md).
+- [ ] Tested with real farmers and "One Honest Number" documented above.
+- [ ] If private, collaborators [`@agripreneurs`](https://github.com/agripreneurs) and [`@kumarraja`](https://github.com/kumarraja) added.
+- [ ] Final text/URL-based submission form submitted on time.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [`LICENSE`](file:///Users/laku/projects/agripreneurs-buildathon-template/LICENSE) file for details.
+Licensed under the [MIT License](file:///Users/laku/projects/agripreneurs-buildathon-template/LICENSE).

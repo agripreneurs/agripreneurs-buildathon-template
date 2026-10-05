@@ -1,169 +1,134 @@
-# 🌾 Agripreneurs Buildathon 01 - Submission Guidelines
+# 🌾 Agripreneurs Buildathon 01 - Submission & Engineering Guidelines
 
-Welcome to the **Agripreneurs Buildathon 01**! This document outlines everything you need to know about preparing your solution, organizing your repository, and submitting your project on time.
-
----
-
-## 📅 Key Deadlines & Timeline
-
-| Event | Date & Time | Notes |
-|-------|-------------|-------|
-| **Submission Deadline** | **15 October 2026, 11:59 PM IST** | Strict deadline. Late commits will not be evaluated. |
-| **Shortlist Announcement** | To be notified | Finalist teams announced for live presentation. |
-| **Live Pitch & Q&A** | To be scheduled | Live virtual presentation before the judging panel. |
-
-> **Timezone Specificity:** All times are in **Indian Standard Time (IST, UTC +5:30)**. Please adjust for your local timezone accordingly.
+> **Theme:** *Build for the Farmer. Start in the field, not on the whiteboard.*  
+> **Initiative by:** AgriPreneurs · Partners: AI for Vizag, AI Karyashala, Quantamizers, GDG Vizag · Support: RTIH, G-TEC, VDC  
+> **Venues:** RTIH, 5th Floor, VMRDA Deck, Siripuram, Visakhapatnam (Vizag) & Real Farming Communities
 
 ---
 
-## 👥 Team Composition & Speaker Rules
+## 📅 Official Buildathon Timeline
 
-- **Team Size:** Recommended **2 to 5 members** per team.
-- **Live Q&A Speakers:** **Maximum 3 speakers** per team during the live pitch and judge Q&A session. Other members may attend to assist with technical demonstrations or audio/video support.
-- **Multidisciplinary Teams:** We strongly recommend teams combine software, electronics/hardware, agricultural domain knowledge, and product design.
-
----
-
-## 🎯 Problem Statement Tracks
-
-Teams can choose either one of the 6 official problem statements or propose their own idea:
-
-1. **Track PS1:** Precision Irrigation & Water Resource Optimization (IoT / Soil Sensors / Drip Actuation)
-2. **Track PS2:** Crop Pest & Disease Early Detection (Computer Vision / Drone / Mobile Edge AI)
-3. **Track PS3:** Soil Health & Nutrient Management (NPK sensing / Fertilizer Advisory / Soil Testing)
-4. **Track PS4:** Post-Harvest Loss Prevention & Cold Chain Monitoring (Smart Storage / Spoilage Detection)
-5. **Track PS5:** Farm Mechanization & Affordable Automation (Smallholder robotics / Seeders / Weeding tools)
-6. **Track PS6:** Market Linkage, Price Discovery & Fair Supply Chains (Fintech / Direct Farmer-to-Consumer / Mandi API)
-7. **Track 07 (Open Innovation):** Original student-identified agricultural problem statement
+| Milestone | Date & Time (IST) | Description |
+|-----------|-------------------|-------------|
+| **Kickoff & Tribe Formation** | Sunday, 4 Oct 2026 | Keynote, problem pitches, tribe matching at RTIH Vizag |
+| **Field Sprints & Coding** | 4 Oct – 15 Oct 2026 | Building the smallest real version; testing with local farmers |
+| **GitHub Submission Deadline** | **Thursday, 15 Oct 2026, 11:59 PM IST** | **Strict code freeze.** Commits after this time will not be evaluated |
+| **Field Commit Benchmark** | Friday, 16 Oct 2026 | Commit prototype to 5 real farmers; record the "one honest number" |
+| **AgriPreneurs Showcase Meet** | **Saturday, 17 Oct 2026** | **Live showcase floor at monthly meet.** Working demo & farmer feedback |
+| **Soil-Grown Ventures Graduation**| December 2026 | Top builds showcase at **AgriPreneurs Day @ Visakha Organic Mela** |
 
 ---
 
-## 🛠️ Repository Organization & Skeleton Structure
+## 👥 Tribe Composition & Speaker Rules
 
-Your submission must follow this standard folder layout:
-
-```text
-├── .env.example              <- Template for environment variables (DO NOT commit secrets!)
-├── .gitignore                <- Blocks secrets, build caches, and ML weights
-├── README.md                 <- PRIMARY source of truth for your project
-├── SUBMISSION_GUIDELINES.md  <- This guide
-├── requirements.txt          <- Python dependencies (or package.json if JS/Node)
-├── docs/                     <- Documentation & deliverables
-│   ├── problem-statement.md  <- Details on your selected problem statement
-│   ├── solution-overview.md  <- How your solution works
-│   ├── system-architecture.md<- Mermaid diagrams & data flow
-│   ├── executive-summary-template.md <- 1-page executive summary template
-│   ├── presentation-guidelines.md    <- Pitch deck tips & structure
-│   ├── final-report-template.md      <- (Optional) deep-dive technical paper
-│   ├── presentation.pdf      <- Your pitch deck (or provide cloud link in README)
-│   └── project-report.pdf    <- (Optional) deep-dive or 1-page executive summary PDF
-├── src/                      <- Application & algorithmic source code
-│   ├── __init__.py
-│   ├── main.py               <- Prototype entrypoint
-│   └── utils.py              <- Data processing and utility helpers
-├── tests/                    <- Automated tests & validation scripts
-│   ├── __init__.py
-│   └── test_basic.py         <- Unit tests
-├── hardware/                 <- Hardware, IoT, circuits, and firmware
-│   ├── README.md             <- Hardware pinout, sensors, and power design
-│   ├── bom.csv               <- Bill of Materials (components, cost, links)
-│   ├── firmware/             <- Arduino / ESP32 / C++ / MicroPython sketches
-│   └── schematics/           <- Circuit diagrams, wiring images, CAD/STL files
-└── data/                     <- Sample datasets and schemas
-    ├── README.md             <- Dataset documentation and external links
-    └── sample_data.csv       <- Lightweight sample dataset for testing
-```
+- **Team Size:** Recommended **2 to 5 members** per Tribe.
+- **Multidisciplinary Tribes:** Mix developers (Python, React, Node), designers (plain Telugu flows), IoT/hardware builders (sensors, boards), product managers, and farm domain voices.
+- **Live Showcase Speakers:** **Maximum 3 speakers** per team during the live pitch and judge Q&A session. Other team members may assist with physical hardware or live screen demonstrations.
 
 ---
 
-## ⚡ Engineering Focus vs. Deliverable Burden
+## 🎯 The 6 Official Problem Statements
 
-> **Important Philosophy:** We value working prototypes, solid engineering, and real-world farm usability over paper documentation. 
-> 
-> - **Do NOT spend days writing a 40-page report.**
-> - All essential documentation should be consolidated into your `README.md` and repository markdown files.
-> - A **concise 1-page executive summary** ([`docs/executive-summary-template.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/executive-summary-template.md)) alongside your pitch deck ([`docs/presentation.pdf`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/presentation.pdf) or cloud link) completely replaces long reports.
-> - The comprehensive report template ([`docs/final-report-template.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/final-report-template.md)) is **strictly optional** and reserved only for teams wanting to submit research-grade papers.
+Teams select one of the 6 official problem statements or choose the Open Innovation track:
 
----
+1. **PS1: Daily Price Signal**  
+   *The Challenge:* Open mandi prices sit in complex English tables (~16k rows/day, 3 prices per variety). Farmers sell blind to middlemen.  
+   *The Build:* A Telugu WhatsApp reply with today's mandi price, modal per quintal and per kg, 7-day trend, and nearest 3 markets from Agmarknet open data (`data.gov.in`).  
+   *Modules:* M1 Registry · M2 Messaging · M4 Price Feed.
 
-## 🔒 GitHub Submission & Repository Access
+2. **PS2: Storage Booking (Book, Hold, Sell Later)**  
+   *The Challenge:* Farmers sell at harvest glut because loans fall due and they don't know which WDRA registered warehouses have space.  
+   *The Build:* Reserve a storage slot before harvest with a small UPI advance; receive a verifiable digital receipt; 1-tap pledge loan; sell on e-NAM/ONDC when price rises.  
+   *Modules:* M1 Registry · M4 Price Feed · M6 Listing · M8 Receipt & Ledger.
 
-Teams may build in a private or public repository:
+3. **PS3: Grade-Assist (Three Grades, Four Checks, One Card)**  
+   *The Challenge:* Quality is unrewarded at the farm gate because assaying is subjective, slow, and lab-bound.  
+   *The Build:* 4 visible checks (size, colour, damage, cleanliness) + 3 photos generate a verified Grade Card (image + QR) that buyers trust. Start with tomatoes.  
+   *Modules:* M1 Registry · M2 Messaging · M3 Image & Inference · M8 Receipt & Ledger.
 
-### If your repository is PRIVATE:
-To allow organizers and judges to review your code, commit history, and tests before and during judging, you **MUST add the official judge GitHub accounts as collaborators**:
-1. Go to your repository on GitHub: `Settings` $\rightarrow$ `Collaborators` $\rightarrow$ `Add people`.
-2. Add both judge/organizer accounts:
-   - **[`@agripreneurs`](https://github.com/agripreneurs)**
-   - **[`@kumarraja`](https://github.com/kumarraja)**
-3. Ensure the invitation has been sent before the deadline.
+4. **PS4: Crop-Photo Check (Likely Issues, Honest Advice)**  
+   *The Challenge:* Look-alike symptoms lead to chemical over-prescription by input dealers. AI apps give single overconfident answers with ads.  
+   *The Build:* Farmer sends leaf photos on WhatsApp; receives top-3 likely issues with confidence, low-cost/unbranded first steps, and human agronomist review.  
+   *Modules:* M1 Registry · M2 Messaging · M3 Image & Inference · M5 Advisory.
 
-### If your repository is PUBLIC:
-Ensure the repository visibility is public and the URL is accessible to anyone.
+5. **PS5: Organic Marketplace on ONDC and Digi Rythu Bazaar**  
+   *The Challenge:* Organic farmers sell at conventional prices because buyers cannot verify organic authenticity without visible proof.  
+   *The Build:* Verified organic identity (NPOP/PGS QR trace); Rythu Bazaar hubs act as ONDC seller nodes; direct pricing raises farmer share from ₹22 to ₹42 on a ₹60 lot.  
+   *Modules:* M1 Registry · M6 Listing · M8 Receipt & Ledger · M9 Traceability.
 
----
+6. **PS6: Universal Robotic Farming Stack (KisaanBot / Urban Automated Farming)**  
+   *The Challenge:* Cartesian farm robots require robust sub-systems for planting, scanning, and targeted dosing.  
+   *The Build (Pick a Subsystem Challenge):*  
+   - *Challenge 1 (ECE/Mech):* Universal Tool-Head & Smart Pogo Bus (kinematic auto-docking, EEPROM 1-Wire discovery, leak-free auto-valved dosing). Target: 20 auto-dock cycles & ≤±5% liquid variance.  
+   - *Challenge 2 (CS/AI):* FieldVision Homography & Scanner (ArUco calibration, lightweight YOLO crop/weed detection, G-code stream). Target: ≤2.5 mm spatial accuracy & <2s inference.  
+   - *Challenge 3 (CS/Systems):* Universal Agronomic DSS & Bridge (weather gating, TSP path solver, dual GRBL & Nav2 output). Target: 100% automated dispatch.
 
-## 📦 Required Deliverables
-
-Every team must deliver:
-
-1. **GitHub Repository:** Clean code, modular structure, working tests, and populated `README.md`.
-2. **Pitch Deck (Presentation):**
-   - 8–10 slides following [`docs/presentation-guidelines.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/presentation-guidelines.md).
-   - Saved as [`/docs/presentation.pdf`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/presentation.pdf) **OR** shared via a public cloud link (Google Slides / Canva / Notion with "Anyone with link can view").
-3. **Working Prototype Video Demo:**
-   - 2 to 3 minutes duration.
-   - Uploaded to **YouTube (Unlisted or Public)** or Loom.
-   - Demonstrates the software running, hardware operating (if applicable), and real sensor/model outputs.
-4. **1-Page Executive Summary:**
-   - Filled out in [`docs/executive-summary-template.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/executive-summary-template.md) or committed as `/docs/project-report.pdf` (or cloud link).
-5. **Live Deployed Prototype URL (Optional but recommended):**
-   - E.g. Vercel, Render, Streamlit Cloud, Hugging Face Spaces, or mobile APK download.
+- **Open Innovation Track:** Mud storage, weed mat, hyperspectral seed analysis, cold-chain tracker, or your team's original farmer-validated problem.
 
 ---
 
-## 📝 Submission Form Format (Purely Text & URL Based)
+## 🏛️ Architecture Philosophy: "Build the Thin Layer"
 
-To ensure zero upload failures or file size errors, the official submission form is **purely text- and URL-based**. You will submit:
-
-1. Team Name
-2. Selected Track (PS1 - PS6 or Open Innovation)
-3. GitHub Repository URL (e.g. `https://github.com/team-name/agripreneurs-solution`)
-4. Video Demo URL (e.g. YouTube Unlisted link: `https://youtu.be/...`)
-5. Presentation Deck URL (or specify `In repo: /docs/presentation.pdf`)
-6. Executive Summary URL (or specify `In repo: /docs/executive-summary-template.md`)
-7. Live Deployed Web/API URL (Optional)
-8. Team Members' Names, Emails, Institutions
-9. Designated Live Q&A Speakers (Max 3 names)
+1. **Stand on Existing Rails (Do NOT Reinvent):**  
+   Leverage Agmarknet / `data.gov.in`, ONDC, Digi Rythu Bazaar, WhatsApp Business, and e-NAM. Build the thin layer that connects the farmer to the rail.
+2. **Reuse Shared Modules (M1–M10):**  
+   Modules live under [`github.com/agripreneurs`](https://github.com/agripreneurs). Connect to them via published contracts and events only. **Never import another module's database directly.**
+3. **Zero-Setup Default:**  
+   Your code must run with **one command** and zero external paid cloud dependencies in its default form (using SQLite, mock data, or sample CSVs).
+4. **Publish Contracts in `/spec`:**  
+   Every module or service must publish its API or domain event contract in [`/spec`](file:///Users/laku/projects/agripreneurs-buildathon-template/spec/README.md).
 
 ---
 
-## 🏆 Evaluation Criteria
+## 🔒 GitHub Submission & Collaborator Setup
 
-Judges will score solutions based on five key dimensions:
+- **Submission Repository:** Push your code, docs, and deliverables to your team's GitHub repository.
+- **Collaborator Rule for Private Repos:**  
+  If your repository is kept private during the buildathon, you **MUST add the official judge and organizer GitHub accounts as collaborators** before the deadline:
+  - **[`@agripreneurs`](https://github.com/agripreneurs)**
+  - **[`@kumarraja`](https://github.com/kumarraja)**
+- **Public Repositories:** Ensure repository visibility is public before **15 October 2026, 11:59 PM IST**.
+
+---
+
+## 📦 What to Submit (Purely Text- & URL-Based)
+
+To avoid 50 MB upload limits and file corruption, the submission form is **purely text- and URL-based**:
+
+1. **GitHub Repository URL:** Contains clean code, `/spec` contract, working tests, and documentation.
+2. **Working Video Demo (2–3 Minutes):** Unlisted YouTube or Loom link demonstrating real software or hardware running.
+3. **Pitch Deck (Slides):** 8–10 slides hosted at [`/docs/presentation.pdf`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/presentation.pdf) or a public Google Slides/Canva link.
+4. **1-Page Executive Summary:** Filled out in [`docs/executive-summary-template.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/executive-summary-template.md) or committed as `/docs/project-report.pdf` (No 40-page reports required!).
+5. **The One Honest Number:** State the metric achieved with real farmers (e.g. "Tested with 5 tomato farmers in Anandapuram; 100% agreed on Grade A card; saved ₹400/lot").
+6. **Live Deployed URL (Optional):** Vercel, Streamlit Cloud, or APK link.
+7. **Tribe Member Names & Max 3 Live Q&A Speakers.**
+
+---
+
+## 🏆 Judging Criteria
 
 | Criterion | Weight | What Judges Look For |
 |-----------|--------|----------------------|
-| **1. Ground Reality & Agricultural Impact** | **25%** | Does the solution address genuine farmer pain points? Is it affordable and feasible in rural Indian field conditions? |
-| **2. Technical Execution & Engineering Rigor** | **25%** | Quality of code, circuit design/BOM, working unit tests, clean architecture, and error resilience. |
-| **3. Innovation & Originality** | **20%** | Novel approach, creative use of sensors/AI/mechanics, and clear differentiation from existing market tools. |
-| **4. Unit Economics & Scalability** | **15%** | Low manufacturing/maintenance cost, viable business or FPO model, rapid payback period for smallholder farmers. |
-| **5. Prototype Demo & Live Q&A** | **15%** | Clarity of pitch, working proof demonstrated in the video/live prototype, and domain mastery during judge Q&A (max 3 speakers). |
+| **1. Ground Truth & Farmer Impact** | **25%** | Does it solve a real value leak? Did you talk to farmers? Is it usable in plain Telugu / offline field conditions? |
+| **2. Field Validation & "One Honest Number"** | **25%** | Did you test with 5 real farmers? What was the measured before/after metric? What did the farmer actually say? |
+| **3. Technical Execution & Contract Rigor** | **20%** | Clean code, `/spec` contract, passing tests, zero-setup runnable default, and thin-layer reuse of existing rails. |
+| **4. Frugal Engineering & Unit Economics** | **15%** | Low BOM cost (<₹1,500 for IoT), no unnecessary subscriptions, clear ROI for the farmer. |
+| **5. Live Demo & Q&A Mastery** | **15%** | A working prototype (not just slides), clarity on what is *not* built yet, and domain grasp during Q&A (max 3 speakers). |
 
 ---
 
-## ✅ Final Pre-Submission Checklist
+## ✅ Pre-Submission Checklist
 
-Before submitting on **15 October 2026, 11:59 PM IST**, verify:
+Before **15 October 2026, 11:59 PM IST**:
 
-- [ ] Repository has no hardcoded secrets, tokens, or API keys (`.env.example` used instead).
-- [ ] Large ML models and raw data archives are not committed to git (stored on cloud storage).
-- [ ] `README.md` is fully filled out with team names, problem statement, architecture, setup steps, and demo links.
-- [ ] If private, collaborators `@agripreneurs` and `@kumarraja` have been added.
-- [ ] Video demo (2-3 min) is uploaded and test-viewed in an incognito window.
-- [ ] Slide deck (`docs/presentation.pdf` or cloud link) is accessible without login barriers.
-- [ ] Code runs successfully from instructions in `README.md` (`python src/main.py` and `python -m unittest discover tests`).
-- [ ] Hardware BOM (`hardware/bom.csv`) and circuit schematics are documented (if applicable).
-- [ ] 3 designated speakers are identified for the live pitch.
-- [ ] Submission form is submitted before **11:59 PM IST, 15 October 2026**.
+- [ ] Zero secrets or API keys committed (`.env.example` provided).
+- [ ] No large ML checkpoints or massive datasets committed to git.
+- [ ] Starter script runs out of the box (`python3 src/main.py`).
+- [ ] Automated tests pass (`python3 -m unittest discover tests`).
+- [ ] Module contract or event schema defined in `/spec`.
+- [ ] `README.md` fully completed with architecture diagram, tech stack, and links.
+- [ ] 2–3 minute video demo recorded and viewable via unlisted YouTube/Loom.
+- [ ] Pitch deck saved as `docs/presentation.pdf` or cloud URL set to public view.
+- [ ] Tested with real farmers and "One Honest Number" documented.
+- [ ] Collaborators `@agripreneurs` and `@kumarraja` added (if repo is private).
+- [ ] Submission form completed before deadline.
