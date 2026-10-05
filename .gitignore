@@ -1,0 +1,160 @@
+# ==============================================================================
+# Environment Variables & Secrets / Credentials
+# ==============================================================================
+.env
+.env.*
+*.env
+!.env.example
+!.env.template
+
+# Keys, certificates, tokens
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+
+# Cloud and service credentials
+*credentials*.json
+*secret*.json
+service_account*.json
+service-account*.json
+token.json
+tokens.json
+auth.json
+.aws/
+.gcp/
+.azure/
+.firebase/
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+__pypackages__/
+
+# Node environments
+node_modules/
+
+# ==============================================================================
+# Large Machine Learning Models, Weights & Datasets
+# ==============================================================================
+# Model weights and checkpoints
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+*.h5
+*.keras
+*.tflite
+*.weights
+*.pb
+*.pkl
+*.pickle
+*.joblib
+
+# Model & checkpoint directories
+models/checkpoints/
+models/saved/
+checkpoints/
+weights/
+saved_models/
+
+# Large datasets & data archives
+data/raw/
+data/processed/
+datasets/
+*.parquet
+*.feather
+*.csv.gz
+*.tar.gz
+*.zip
+
+# ==============================================================================
+# Python Cache, Bytecode & Build Artifacts
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing, typing and linter caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==============================================================================
+# Operating System & Editor Files
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs & editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# ==============================================================================
+# Logs & Diagnostics
+# ==============================================================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==============================================================================
+# Hardware, Embedded & IoT (Arduino, PlatformIO, KiCad, CAD)
+# ==============================================================================
+.pio/
+.pioenvs/
+.piolibdeps/
+*.hex
+*.elf
+*.bin
+*.kicad_pcb-bak
+*.sch-bak
+*-save.kicad_pcb
+_autosave-*
+*.b#*
+*.s#*
+*.l#*
+*.tmp
+~$*
+

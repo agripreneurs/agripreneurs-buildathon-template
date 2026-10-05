@@ -1,0 +1,7 @@
+item_no,component_name,specification_model,quantity,unit_cost_inr,purpose_function,procurement_source_url
+1,Microcontroller,ESP32 DevKit V1 (30-pin, WiFi+BLE),1,450,Main edge controller & telemetry gateway,https://robu.in/product/esp32-development-board/
+2,Soil Moisture Sensor,Capacitive Soil Moisture Sensor v1.2 (Corrosion resistant),2,80,Measures volumetric water content without rapid soil corrosion,https://robu.in/product/capacitive-soil-moisture-sensor-module/
+3,Soil Temperature Probe,DS18B20 Waterproof Temperature Sensor,1,120,Underground root-zone temperature monitoring,https://robu.in/product/ds18b20-waterproof-temperature-probe/
+4,Relay Module,5V 1-Channel Optocoupler Isolated Relay,1,65,Controls 12V DC solenoid irrigation valve safely,https://robu.in/product/1-channel-isolated-5v-relay-module/
+5,Solenoid Valve,12V DC 1/2 inch Electric Solenoid Valve,1,320,Actuates drip irrigation water line,https://robu.in/product/12v-dc-plastic-solenoid-valve/
+6,Power Supply & Solar,10W Solar Panel + TP4056 + 18650 Li-ion Cell,1,600,Off-grid renewable field power system,https://robu.in/product/10w-solar-panel-12v/

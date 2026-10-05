@@ -1,0 +1,25 @@
+# Agripreneurs Buildathon - Core Dependencies Starter
+# Add or modify dependencies specific to your solution
+
+# Environment and Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Data Analysis & IoT (Uncomment if needed)
+# pandas>=2.1.0
+# numpy>=1.26.0
+# paho-mqtt>=1.6.1
+# pyserial>=3.5
+
+# Web/API Framework (Uncomment if building an API or dashboard)
+# fastapi>=0.110.0
+# uvicorn>=0.29.0
+# streamlit>=1.32.0
+# flask>=3.0.0
+
+# Machine Learning / Computer Vision (Uncomment if needed)
+# scikit-learn>=1.4.0
+# opencv-python>=4.9.0
+
+# Testing
+pytest>=8.1.0
