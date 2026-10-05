@@ -1,7 +1,7 @@
 # 🌾 Agripreneurs Buildathon 01 — Solution Template
 
 > **Theme:** *Build for the Farmer. Start in the field, not on the whiteboard.*  
-> **Key Deadlines:** Code Freeze: **15 Oct 2026, 11:59 PM IST** | Commit to 5 Farmers: **16 Oct 2026** | Showcase Meet: **17 Oct 2026**  
+> **Key Deadlines:** Code Freeze: **15 Oct 2026, 11:59 PM IST** | Commit to 5 Farmers: **16 Oct 2026** | Showcase Meet: **17 Oct 2026 at GITAM VDC, Vizag**  
 > **Tribe Size:** 2–5 Members (Max 3 Speakers in Live Q&A)  
 > **Judges / Collaborators (if private):** [`@agripreneurs`](https://github.com/agripreneurs) & [`@kumarraja`](https://github.com/kumarraja)
 
@@ -78,7 +78,7 @@ flowchart LR
 - **Frontend / Farmer Interface:** Vernacular Telugu flows on WhatsApp (Twilio/Meta API) / Flutter / React / Streamlit.
 - **Backend & APIs:** Python 3.10+, FastAPI / Flask / Node.js.
 - **Data & Feeds:** Agmarknet daily price scraper via `data.gov.in`, OpenWeather API.
-- **Hardware / IoT (if applicable):** ESP32, Capacitive Soil Sensors, Relays, Solenoid valves, CNC Cartesian frame (KisaanBot), ArUco markers, YOLO vision.
+- **Hardware / IoT (if applicable):** ESP32, Capacitive Soil Sensors, Relays, Solenoid valves, CNC Cartesian robot frame, ArUco markers, YOLO vision.
 - **Database & State:** SQLite (zero-setup default) / PostgreSQL / Redis.
 - **Testing & Specification:** Python `unittest`, JSON Schema / OpenAPI in `/spec`.
 

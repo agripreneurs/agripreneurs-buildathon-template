@@ -2,7 +2,7 @@
 
 > **Theme:** *Build for the Farmer. Start in the field, not on the whiteboard.*  
 > **Initiative by:** AgriPreneurs · Partners: AI for Vizag, AI Karyashala, Quantamizers, GDG Vizag · Support: RTIH, G-TEC, VDC  
-> **Venues:** RTIH, 5th Floor, VMRDA Deck, Siripuram, Visakhapatnam (Vizag) & Real Farming Communities
+> **Venues:** Kickoff at RTIH (Siripuram) | Live Showcase Meet at **GITAM VDC, Vizag** & Real Farming Communities
 
 ---
 
@@ -14,7 +14,7 @@
 | **Field Sprints & Coding** | 4 Oct – 15 Oct 2026 | Building the smallest real version; testing with local farmers |
 | **GitHub Submission Deadline** | **Thursday, 15 Oct 2026, 11:59 PM IST** | **Strict code freeze.** Commits after this time will not be evaluated |
 | **Field Commit Benchmark** | Friday, 16 Oct 2026 | Commit prototype to 5 real farmers; record the "one honest number" |
-| **AgriPreneurs Showcase Meet** | **Saturday, 17 Oct 2026** | **Live showcase floor at monthly meet.** Working demo & farmer feedback |
+| **AgriPreneurs Showcase Meet** | **Saturday, 17 Oct 2026** | **Live showcase floor at GITAM VDC, Vizag.** Working demo & farmer feedback |
 | **Soil-Grown Ventures Graduation**| December 2026 | Top builds showcase at **AgriPreneurs Day @ Visakha Organic Mela** |
 
 ---
@@ -56,14 +56,14 @@ Teams select one of the 6 official problem statements or choose the Open Innovat
    *The Build:* Verified organic identity (NPOP/PGS QR trace); Rythu Bazaar hubs act as ONDC seller nodes; direct pricing raises farmer share from ₹22 to ₹42 on a ₹60 lot.  
    *Modules:* M1 Registry · M6 Listing · M8 Receipt & Ledger · M9 Traceability.
 
-6. **PS6: Universal Robotic Farming Stack (KisaanBot / Urban Automated Farming)**  
+6. **PS6: Universal Robotic Farming Stack (Automated Farming / Farm Robotics)**  
    *The Challenge:* Cartesian farm robots require robust sub-systems for planting, scanning, and targeted dosing.  
    *The Build (Pick a Subsystem Challenge):*  
    - *Challenge 1 (ECE/Mech):* Universal Tool-Head & Smart Pogo Bus (kinematic auto-docking, EEPROM 1-Wire discovery, leak-free auto-valved dosing). Target: 20 auto-dock cycles & ≤±5% liquid variance.  
    - *Challenge 2 (CS/AI):* FieldVision Homography & Scanner (ArUco calibration, lightweight YOLO crop/weed detection, G-code stream). Target: ≤2.5 mm spatial accuracy & <2s inference.  
    - *Challenge 3 (CS/Systems):* Universal Agronomic DSS & Bridge (weather gating, TSP path solver, dual GRBL & Nav2 output). Target: 100% automated dispatch.
 
-- **Open Innovation Track:** Mud storage, weed mat, hyperspectral seed analysis, cold-chain tracker, or your team's original farmer-validated problem.
+- **Open Innovation Track:** Low-cost storage, natural weed management, post-harvest quality testing, supply-chain monitoring, or your team's original farmer-validated problem.
 
 ---
 

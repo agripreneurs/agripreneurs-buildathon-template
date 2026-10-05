@@ -10,7 +10,7 @@ This directory contains supporting documentation, templates, architecture diagra
 | [`problem-statement.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/problem-statement.md) | **Required** | Deep dive into your selected track (PS1-PS6 or Open Innovation), agricultural context, and the "one honest number". |
 | [`system-architecture.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/system-architecture.md) | **Required** | Thin-layer system architecture, existing rails used, and data flows. |
 | [`executive-summary-template.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/executive-summary-template.md) | **Recommended** | Concise 1-page executive summary (replaces lengthy 40-page reports). |
-| [`presentation-guidelines.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/presentation-guidelines.md) | Reference | Guidelines for structuring your 8–10 slide pitch deck and 17 October showcase. |
+| [`presentation-guidelines.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/presentation-guidelines.md) | Reference | Guidelines for structuring your 8–10 slide pitch deck and 17 October showcase at GITAM VDC, Vizag. |
 | [`final-report-template.md`](file:///Users/laku/projects/agripreneurs-buildathon-template/docs/final-report-template.md) | *Optional* | Deep-dive comprehensive report template (only if submitting academic research). |
 | `presentation.pdf` | **Deliverable** | Place your exported pitch deck PDF here (or provide a cloud link in `README.md`). |
 | `project-report.pdf` | *Optional* | Place your exported executive summary or report PDF here (or provide cloud link). |

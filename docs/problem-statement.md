@@ -14,11 +14,11 @@
   - **PS3: Grade-Assist (Three Grades, Four Checks, One Card)** (Objective farm-gate quality grading for tomatoes/produce; 4-question checklist + 3 proof photos -> QR grade card).
   - **PS4: Crop-Photo Check (Likely Issues, Honest Advice)** (Multi-photo WhatsApp diagnosis; top-3 likely causes with confidence, unbranded low-cost first steps, agronomist in the loop).
   - **PS5: Organic Marketplace on ONDC & Digi Rythu Bazaar** (Connecting certified organic growers to urban consumers; NPOP/PGS QR traceability, Rythu Bazaar seller nodes, fair pricing).
-  - **PS6: Universal Robotic Farming Stack (KisaanBot / Urban Automated Farming)**:
+  - **PS6: Universal Robotic Farming Stack (Automated Farming / Farm Robotics)**:
     - *Challenge 1 (ECE/Mech):* Universal Tool-Head & Smart Pogo Bus (Kinematic auto-docking, EEPROM 1-Wire discovery, leak-free dosing).
     - *Challenge 2 (CS/AI):* FieldVision Homography & Scanner (ArUco calibration, lightweight YOLO, G-code generation).
     - *Challenge 3 (CS/Systems):* Universal Agronomic DSS & Bridge (Weather gating, TSP path solver, GRBL & Nav2 bridge).
-  - **Open Innovation:** Mud storage, weed mat, hyperspectral seed analysis, cold-chain tracker, or your team's original farmer-validated problem.
+  - **Open Innovation:** Low-cost storage, natural weed management, post-harvest quality testing, supply-chain monitoring, or your team's original farmer-validated problem.
 
 ---
 

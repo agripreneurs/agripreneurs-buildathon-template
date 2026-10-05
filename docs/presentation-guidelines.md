@@ -12,6 +12,7 @@ Your presentation is a critical element of how judges evaluate your solution. Fo
 ---
 
 ## Live Pitch & Q&A Rules
+- **Showcase Meet & Venue:** **Saturday, 17 October 2026 at GITAM VDC, Vizag**.
 - **Pitch Duration:** 5-7 minutes presentation + 3-5 minutes judge Q&A (verify exact schedule with organizers).
 - **Speakers Rule:** **Maximum 3 speakers** from the team during the live pitch and Q&A session. Other team members may attend to observe or assist with technical demonstrations.
 - **Team Size:** Recommended 2–5 members per team.
